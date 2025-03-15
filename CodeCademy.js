@@ -34,8 +34,19 @@ const pi = 3.14 // A variable that can never change
 var a; // This is declaring a variable
 var b = 2; // Here we are declaring and assigning a
 // variable. The "=" is the assignment operator.
-comsole.log(b)
+console.log(b)
 a = "I love VS Code"; /* Here, a is being assigned to a vlaue.
 we done have to declare it because its been declared.*/
 
 console.log(a) // This will print "I love VS Code"
+
+var myStr = "This is the start. "
+myStr += "I come second."; // This is concatenation
+console.log(myStr);
+
+var outStr = "This is the first sentence. ";
+outStr += "This is the second sentence.";
+console.log(outStr);
+
+var anAdjective = "awesome!";  
+outStr += "Learning to code is ";
